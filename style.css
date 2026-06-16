@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#1f0f2a,#1e293b);
+    min-height:100vh;
+    color:#462fad;
+}
+
+header{
+    text-align:center;
+    color:white;
+    padding:35px;
+}
+
+header h1{
+    font-size:2.2rem;
+    margin-bottom:10px;
+}
+
+.subtitulo{
+    color:#b42947;
+}
+
+main{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+.formulario,
+.lista{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.15);
+}
+
+h2{
+    color:#1e293b;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:2px solid #e2e8f0;
+    border-radius:12px;
+    font-size:15px;
+    transition:.3s;
+}
+
+input:focus{
+    outline:none;
+    border-color:#3b82f6;
+    box-shadow:0 0 15px rgba(59,130,246,.25);
+}
+
+.formulario button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #3b82f6
+    );
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.formulario button:hover{
+    transform:translateY(-3px);
+}
+
+#contador{
+    color:#64748b;
+}
+
+.tarea{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f8fafc;
+    padding:18px;
+    border-radius:15px;
+    margin-bottom:15px;
+    border-left:6px solid #2563eb;
+    transition:.3s;
+}
+
+.tarea:hover{
+    transform:translateY(-2px);
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.tarea-info{
+    display:flex;
+    flex-direction:column;
+}
+
+.tarea-info strong{
+    font-size:18px;
+    color:#1e293b;
+}
+
+.tarea-info span{
+    color:#64748b;
+    margin-top:5px;
+}
+
+.completada{
+    background:#ecfdf5;
+    border-left:6px solid #16a34a;
+}
+
+.completada strong{
+    text-decoration:line-through;
+    color:#94a3b8;
+}
+
+.tarea-acciones{
+    display:flex;
+    gap:10px;
+}
+
+.tarea-acciones button{
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.tarea-acciones button:first-child{
+    background:#16a34a;
+}
+
+.btn-eliminar{
+    background:#dc2626 !important;
+}
+
+.vacio{
+    text-align:center;
+    padding:30px;
+    color:#64748b;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+    .tarea{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+    }
+
+    .tarea-acciones{
+        width:100%;
+    }
+
+    .tarea-acciones button{
+        flex:1;
+    }
+}
