@@ -2,15 +2,20 @@
 
 ## Descripción
 
-Tareas Cloud es una aplicación web colaborativa desarrollada utilizando HTML, CSS y JavaScript, conectada a Supabase como base de datos en la nube.
+Tareas Cloud es una aplicación web colaborativa desarrollada para gestionar tareas en tiempo real utilizando tecnologías cloud. La aplicación permite registrar tareas, asignar responsables, marcar tareas como completadas y eliminarlas.
 
-La aplicación permite:
+## Arquitectura
 
-* Agregar tareas.
-* Visualizar tareas registradas.
-* Marcar tareas como completadas.
-* Eliminar tareas.
-* Actualización en tiempo real mediante Supabase Realtime.
+La aplicación está compuesta por:
+
+* Frontend: HTML, CSS y JavaScript.
+* Backend como servicio (BaaS): Supabase.
+* Control de versiones: Git y GitHub.
+* Despliegue en la nube: Vercel.
+
+### Flujo de funcionamiento
+
+Usuario → Aplicación Web → Supabase → Actualización en tiempo real → Usuario
 
 ## Tecnologías utilizadas
 
@@ -22,13 +27,24 @@ La aplicación permite:
 * GitHub
 * Vercel
 
-## Despliegue
+## Capturas de pantalla
 
-La aplicación se encuentra desplegada en Vercel.
+### Pantalla principal
 
-## Versión 1.1
-Se mejoró el diseño de la interfaz.
+[Insertar captura de la aplicación]
+
+### Base de datos en Supabase
+
+[Insertar captura de la tabla tareas]
+
+### Repositorio GitHub
+
+[Insertar captura del repositorio]
+
+### Despliegue en Vercel
+
+[Insertar captura del despliegue]
 
 ## Autor
 
-Betxy Ovale Vasquez
+
