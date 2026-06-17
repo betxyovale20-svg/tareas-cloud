@@ -31,19 +31,19 @@ Usuario → Aplicación Web → Supabase → Actualización en tiempo real → U
 
 ### Pantalla principal
 
-[Insertar captura de la aplicación]
+![Aplicación](capturas/aplicacion.png)
 
 ### Base de datos en Supabase
 
-[Insertar captura de la tabla tareas]
+![Supabase](capturas/supabase.png)
 
 ### Repositorio GitHub
 
-[Insertar captura del repositorio]
+![GitHub](capturas/github.png)
 
 ### Despliegue en Vercel
 
-[Insertar captura del despliegue]
+![Vercel](capturas/vercel.png)
 
 ## Autor
 
